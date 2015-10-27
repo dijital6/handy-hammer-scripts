@@ -1,4 +1,8 @@
 #!/bin/bash
+######################################################################
+# Publish an exisiting content view to a new version.
+# Promotion will not happen in this script.
+######################################################################
 ORG_ID=$1
 CV_ID=$2
 if [ $# -lt 2 ]

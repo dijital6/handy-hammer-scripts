@@ -1,7 +1,7 @@
 #!/bin/bash
-if [ $# -lt 1 ]
+if [ $# -lt 3 ]
 then
-	echo "get-products.sh [ORG_ID]"
+	echo "promote-content-views.sh [ORG_ID] [CONTENT_VIEW_ID] [LIFECYCLE_ENVIRONMENT_STAGE_ID]"
 	exit 1
 fi
 
